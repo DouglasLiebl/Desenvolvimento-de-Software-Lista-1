@@ -5,12 +5,12 @@ public class Ex04 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        double totalConsumido, valorDaConta;
+        double totalConsumed, invoice;
 
-        System.out.println("Insira o total de KW consumidos no mês: ");
-        totalConsumido = input.nextDouble();
+        System.out.println("Enter the total KW consumed in the month: ");
+        totalConsumed = input.nextDouble();
 
-        valorDaConta = totalConsumido * 0.55;
-        System.out.printf("Valor total: R$ %.2f", valorDaConta);
+        invoice = totalConsumed * 0.55;
+        System.out.printf("Invoice: R$ %.2f", invoice);
     }
 }

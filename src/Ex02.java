@@ -6,19 +6,19 @@ public class Ex02 {
 
         Scanner input = new Scanner(System.in);
 
-        double baseMaior, baseMenor, altura, area;
+        double biggerBase, minorBase, height, area;
 
-        System.out.println("Insira a base menor: ");
-        baseMenor = input.nextDouble();
+        System.out.println("Enter the minor base value: ");
+        minorBase = input.nextDouble();
 
-        System.out.println("Insira a base maior: ");
-        baseMaior = input.nextDouble();
+        System.out.println("Enter the bigger base value: ");
+        biggerBase = input.nextDouble();
 
-        System.out.println("Insira a altura: ");
-        altura = input.nextDouble();
+        System.out.println("Enter the height value: ");
+        height = input.nextDouble();
 
-        area = ((baseMenor + baseMaior) * altura) / 2;
+        area = ((minorBase + biggerBase) * height) / 2;
 
-        System.out.printf("A área do trapézio é: %s", area);
+        System.out.printf("The area of the trapezoid is: %.2f", area);
     }
 }

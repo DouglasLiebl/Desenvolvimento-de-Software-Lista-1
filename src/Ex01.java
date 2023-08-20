@@ -5,17 +5,16 @@ public class Ex01 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        double firstGrade, secondGrade, average;
 
-        double nota1, nota2, media;
+        System.out.println("Enter the first grade: ");
+        firstGrade = input.nextDouble();
 
-        System.out.println("Insira a nota 1: ");
-        nota1 = input.nextDouble();
+        System.out.println("Now enter the second grade: ");
+        secondGrade = input.nextDouble();
 
-        System.out.println("Insira a nota 2: ");
-        nota2 = input.nextDouble();
+        average = (firstGrade + secondGrade) / 2;
 
-        media = (nota1 + nota2) / 2;
-
-        System.out.printf("A média é: %.2f", media);
+        System.out.printf("Average: %.2f", average);
     }
 }

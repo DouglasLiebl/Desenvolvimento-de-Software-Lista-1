@@ -5,23 +5,23 @@ public class Ex07 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        String nome, nacionalidade;
-        int idade;
-        double peso;
+        String name, nationality;
+        int age;
+        double weight;
 
-        System.out.println("Insira o seu nome: ");
-        nome = input.nextLine();
+        System.out.println("Enter your name: ");
+        name = input.nextLine();
 
-        System.out.println("Insira a sua idade: ");
-        idade = input.nextInt();
+        System.out.println("Enter your age: ");
+        age = input.nextInt();
 
-        System.out.println("Insira o seu peso: ");
-        peso = input.nextDouble();
+        System.out.println("Enter your weight: ");
+        weight = input.nextDouble();
         input.nextLine();
 
-        System.out.println("Insira a sua Nacionalidade: ");
-        nacionalidade = input.nextLine();
+        System.out.println("Enter your nationality: ");
+        nationality = input.nextLine();
 
-        System.out.printf("Nome: %s \nIdade: %s \nPeso: %s \nNacionalidade: %s", nome, idade, peso, nacionalidade);
+        System.out.printf("Name: %s \nAge: %s \nWeight: %s \nNationality: %s", name, age, weight, nationality);
     }
 }
